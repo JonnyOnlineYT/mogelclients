@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
+  <title>Mogel Clients</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mogel Clients</h1>
+  </header>
+  <main>
+    <div class="mod-section" onclick="toggleLinks(event, 'mod1')">
+      <h2>Augustus <span class="mod-version">b2.6</span></h2>
+      <div id="mod1-links" class="links">
+        <ul>
+          <br />
+          <li><a href="mod1-download-link1">Download Client</a></li>
+          <li><a href="mod1-download-link2">Download Source</a></li>
+          <!-- Add more download links as needed -->
+        </ul>
+      </div>
+    </div>
+    <div class="mod-section" onclick="toggleLinks(event, 'mod2')">
+      <h2>Eject Recode <span class="mod-version">0.0.8</span></h2>
+      <div id="mod2-links" class="links">
+        <ul>
+          <br />
+          <li><a href="mod2-download-link1">Download Client</a></li>
+          <li><a href="mod2-download-link2">Download Deobf</a></li>
+          <!-- Add more download links as needed -->
+        </ul>
+      </div>
+    </div>
+    <!-- Add more mod sections as needed -->
+  </main>
+  <footer>
+    <p>© 2023 Mogel Clients. No rights reserved.</p>
+  </footer>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
