@@ -30,6 +30,7 @@ main {
 }
 
 .mod-section {
+  box-sizing: border-box;
   font-family: 'Nunito';
   background-color: #1f1f1f;
   border: 1px solid #515151;
